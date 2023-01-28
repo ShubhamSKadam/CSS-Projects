@@ -1,0 +1,42 @@
+body {
+    padding: 16px 32px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+/* We'll learn about this later on! */
+aside p:last-of-type {
+    margin-bottom: 0;
+}
+
+aside {
+    background: peachpuff;
+    border: 2px solid;
+    padding: 16px;
+}
+
+.recipe a {
+      text-decoration: none;
+      color: deeppink;
+}
+
+.recipe a:hover{
+      text-decoration: underline;
+}
+
+.recipe aside a {
+      color:black;
+      text-decoration: underline;
+}
+
+.recipe aside a:hover{
+      text-decoration: none;
+}
+
